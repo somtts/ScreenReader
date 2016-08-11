@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ScreenReader</string>
+    <string name="service_label">screenReaderService</string>
+    <string name="accessibility_service_description">This service is aimed for visually challenged persons</string>
+    <string name="title_activity_service_settings">Settings</string>
+
+    <!-- strings related to my settings -->
+    <string name="lang_default">English</string>
+    <string name="pref_on_off">Kindle Reader Service</string>
+    <string name="pref_on_off_summary">This will activate the background service for voice output</string>
+    <string name="pref_language">TTS Language</string>
+    <string name="pref_language_dialog">Choose Language</string>
+    <string name="pref_list_summary">Choose the language for TTS output</string>
+    <string-array name="pref_language_entries">
+        <item>English</item>
+        <item>Telugu</item>
+    </string-array>
+    <array name="pref_language_values">
+        <item>English</item>
+        <item>Telugu</item>
+    </array>
+    <string name="tel">హైదరాబాద్</string>
+</resources>
