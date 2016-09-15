@@ -1,20 +1,14 @@
 package com.example.vinay.screenreader;
 
 import android.accessibilityservice.AccessibilityService;
-import android.app.Service;
-import android.content.Intent;
 import android.content.res.AssetManager;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Environment;
-import android.os.IBinder;
 import android.preference.PreferenceManager;
-import android.provider.MediaStore;
-import android.provider.Settings;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.accessibility.AccessibilityEvent;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -22,10 +16,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.UnsupportedEncodingException;
 import java.util.Locale;
-
-import static android.support.v4.app.ActivityCompat.startActivityForResult;
 
 
 public class MyScreenReaderService extends AccessibilityService implements TextToSpeech.OnInitListener {
